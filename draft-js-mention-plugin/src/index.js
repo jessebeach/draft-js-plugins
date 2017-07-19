@@ -118,7 +118,7 @@ export default (config = {}) => {
     ],
     getAccessibilityProps: () => (
       {
-        role: 'combobox',
+        role: 'textbox',
         ariaAutoComplete: 'list',
         ariaHasPopup: ariaProps.ariaHasPopup,
         ariaExpanded: ariaProps.ariaExpanded,
